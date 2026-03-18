@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paratify - Gizlilik Politikası</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #00C853 0%, #00E676 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #00C853;
+        }
+        
+        .logo {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            color: #00C853;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            background: #f5f5f5;
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        h2 {
+            color: #00C853;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            border-left: 4px solid #00C853;
+            padding-left: 15px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .contact-box {
+            background: #E8F5E9;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 40px;
+            border-left: 5px solid #00C853;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        a {
+            color: #00C853;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">💰</div>
+            <h1>Paratify</h1>
+            <p style="font-size: 18px; color: #666;">Gizlilik Politikası</p>
+            <div class="last-updated">Son Güncelleme: 14 Mart 2026</div>
+        </div>
+
+        <h2>1. Giriş</h2>
+        <p>Paratify ("Uygulama"), kullanıcılarının gizliliğine değer verir. Bu Gizlilik Politikası, kişisel bilgilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.</p>
+        <p>Uygulamamızı kullanarak, bu Gizlilik Politikası'nda açıklanan uygulamaları kabul etmiş olursunuz.</p>
+
+        <h2>2. Toplanan Bilgiler</h2>
+        <p>Uygulama aşağıdaki bilgileri toplayabilir:</p>
+        <ul>
+            <li><strong>Hesap Bilgileri:</strong> E-posta adresi, kullanıcı adı</li>
+            <li><strong>Finansal Veriler:</strong> Gelir, gider, hesap bakiyeleri (yerel olarak cihazınızda saklanır)</li>
+            <li><strong>Kullanım Verileri:</strong> Uygulama kullanım istatistikleri</li>
+            <li><strong>Cihaz Bilgileri:</strong> Cihaz türü, işletim sistemi versiyonu</li>
+        </ul>
+
+        <h2>3. Verilerin Kullanımı</h2>
+        <p>Toplanan bilgiler şu amaçlarla kullanılır:</p>
+        <ul>
+            <li>Uygulamanın temel işlevlerini sağlamak</li>
+            <li>Kullanıcı deneyimini iyileştirmek</li>
+            <li>Teknik destek sağlamak</li>
+            <li>Güvenlik ve dolandırıcılığı önleme</li>
+            <li>Yasal yükümlülükleri yerine getirmek</li>
+        </ul>
+
+        <h2>4. Veri Saklama</h2>
+        <p>Finansal verileriniz öncelikle yerel olarak cihazınızda saklanır. Firebase Authentication kullanıcı kimlik doğrulaması için kullanılır.</p>
+        <p>Premium kullanıcılar için bazı veriler bulut üzerinde yedeklenebilir (şifrelenerek).</p>
+        <p>Misafir kullanıcı olarak giriş yaparsanız, çıkış yaptığınızda tüm verileriniz silinir.</p>
+
+        <h2>5. Veri Güvenliği</h2>
+        <p>Verilerinizin güvenliğini sağlamak için endüstri standartı güvenlik önlemleri kullanırız:</p>
+        <ul>
+            <li>Şifreli veri aktarımı (HTTPS/TLS)</li>
+            <li>Güvenli kimlik doğrulama (Firebase Auth)</li>
+            <li>Düzenli güvenlik güncellemeleri</li>
+            <li>Yerel veri şifreleme</li>
+        </ul>
+
+        <h2>6. Üçüncü Taraf Hizmetler</h2>
+        <p>Uygulama şu üçüncü taraf hizmetleri kullanır:</p>
+        <ul>
+            <li><strong>Firebase (Google):</strong> Kimlik doğrulama ve analitik</li>
+            <li><strong>CoinMarketCap API:</strong> Kripto para fiyatları</li>
+            <li><strong>Twelve Data API:</strong> Hisse senedi fiyatları</li>
+        </ul>
+        <p>Bu hizmetlerin kendi gizlilik politikaları vardır.</p>
+
+        <h2>7. Kullanıcı Hakları (KVKK)</h2>
+        <p>Kullanıcılar aşağıdaki haklara sahiptir:</p>
+        <ul>
+            <li>Verilerinize erişim hakkı</li>
+            <li>Verilerinizi düzeltme hakkı</li>
+            <li>Verilerinizi silme hakkı</li>
+            <li>Veri taşınabilirliği hakkı</li>
+            <li>İtiraz etme hakkı</li>
+        </ul>
+        <p>Bu hakları kullanmak için bizimle iletişime geçebilirsiniz.</p>
+
+        <h2>8. Çocukların Gizliliği</h2>
+        <p>Uygulamamız 13 yaşın altındaki çocuklara yönelik değildir. Bilerek 13 yaşın altındaki çocuklardan kişisel bilgi toplamayız.</p>
+
+        <h2>9. Politika Değişiklikleri</h2>
+        <p>Bu Gizlilik Politikası'nı zaman zaman güncelleyebiliriz. Önemli değişiklikler durumunda uygulama içinde bildirim yapılacaktır.</p>
+
+        <div class="contact-box">
+            <h2 style="margin-top: 0;">10. İletişim</h2>
+            <p style="margin-bottom: 10px;">Gizlilik Politikası ile ilgili sorularınız için:</p>
+            <p><strong>E-posta:</strong> <a href="mailto:privacy@paratify.com">privacy@paratify.com</a></p>
+            <p><strong>Destek:</strong> <a href="mailto:support@paratify.com">support@paratify.com</a></p>
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2026 Paratify</strong></p>
+            <p>Tüm hakları saklıdır.</p>
+            <p style="margin-top: 15px;">
+                <a href="index.html">Ana Sayfa</a> • 
+                <a href="privacy.html">Gizlilik Politikası</a> • 
+                <a href="terms.html">Kullanım Koşulları</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
